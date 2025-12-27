@@ -150,6 +150,11 @@ SET subcategory = NULL
 WHERE product_key >= 1
   AND subcategory = '';
 
+UPDATE products
+SET category = NULL
+WHERE product_key >= 1
+  AND category = '';
+
 
 -- -----------------------------------------------------
 -- Step 3: Normalize categorical text fields
