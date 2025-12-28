@@ -1,13 +1,13 @@
-/* =====================================================
+
    PROJECT: SQL EXPLORATORY DATA ANALYSIS (EDA)
    FILE: 04_sql_eda.sql
    CONTEXT: Continuation of Data Cleaning Project
 
    DATABASE: datawarehouseanalytics
-   ===================================================== */
+   
 
 
-/* =====================================================
+
    PROJECT CONTEXT
    -----------------------------------------------------
    This Exploratory Data Analysis (EDA) is a direct
@@ -22,11 +22,10 @@
 
    With a clean and reliable dataset in place, this
    script focuses on understanding the structure,
-   distribution, and behavior of the data.
-   ===================================================== */
+   distribution, and behavior of the data
 
 
-/* =====================================================
+
    OBJECTIVE
    -----------------------------------------------------
    The objective of this EDA is to:
@@ -42,15 +41,15 @@
    FOUNDATIONAL EDA. Advanced analytics such as
    change-over-time, growth, and cumulative analysis
    will be handled in a separate follow-up project.
-   ===================================================== */
 
 
-/* =====================================================
+
+
    EDA STRUCTURE
-   ===================================================== */
+   
 
 
-/* =====================================================
+
    1. DIMENSION EXPLORATION
    -----------------------------------------------------
    Focus:
@@ -76,10 +75,10 @@
      grouping or special handling
    - Minor missing values exist but do not
      materially impact analysis
-   ===================================================== */
 
 
-/* =====================================================
+
+
    2. DATE EXPLORATION
    -----------------------------------------------------
    Focus:
@@ -98,10 +97,10 @@
    - Activity varies across time periods
    - Data recency supports further
      trend-based analysis
-   ===================================================== */
 
 
-/* =====================================================
+
+
    3. MEASURES EXPLORATION
    -----------------------------------------------------
    Focus:
@@ -123,10 +122,10 @@
      exist
    - Zero or negative values likely represent
      returns or special business cases
-   ===================================================== */
 
 
-/* =====================================================
+
+
    SUMMARY & CONCLUSIONS
    -----------------------------------------------------
    This EDA confirms that the cleaned dataset is:
@@ -138,10 +137,10 @@
    The analysis highlights concentration patterns
    across dimensions and establishes a clear
    baseline for advanced analytics.
-   ===================================================== */
+   
 
 
-/* =====================================================
+
    NEXT STEPS
    -----------------------------------------------------
    Planned follow-up analysis includes:
@@ -154,12 +153,12 @@
 
    These will be implemented in a separate
    advanced analytics script.
-   ===================================================== */
+   
 
 
-/* =====================================================
+
    RELATED FILES
    -----------------------------------------------------
    - 03_data_cleaning.sql  : Data cleaning and preparation
    - 04_sql_eda.sql        : Exploratory data analysis
-   ===================================================== */
+
