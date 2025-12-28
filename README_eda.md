@@ -153,9 +153,14 @@
 
    These will be implemented in a separate
    advanced analytics script.
+
+
+   ## Exploratory Data Analysis
+
+The detailed Exploratory Data Analysis is documented here:
+➡️ [EDA README](README_eda.md)
+
    
-
-
 
    RELATED FILES
    -----------------------------------------------------
